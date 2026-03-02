@@ -11,6 +11,7 @@ def env():
         {
             "TEST_ENV_ONE": os.getenv("TEST_ENV_ONE"),
             "TEST_ENV_TWO": os.getenv("TEST_ENV_TWO"),
+            "TEST_NOT_ENV_THREE": "Hello World!",
         }
     )
 
